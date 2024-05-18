@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Dbg",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/main.go",
+            "args": ["miley.wav", "mio.wav", "asd.wav"],
+            "env": {},
+            "console": "integratedTerminal"
+        }
+    ]
+}
